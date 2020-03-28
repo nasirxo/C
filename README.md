@@ -12,13 +12,15 @@
 <p>├── factorial.c</p>
 <p>└── usage.cpp</p>
 
-# C++ Example
+# C++ Syntax
 
 ```cpp
+#include <bits/stdc++.h>
+using namespace std;
 int main() {
-  int y = SOME_MACRO_REFERENCE;
+  int y = 10 - 5;
   int x = 5 + 6;
-  cout << "Hello World! " << x << std::endl();
+  cout << "I am Nasir Ali! " << endl;
 }
 ```
 
