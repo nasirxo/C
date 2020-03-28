@@ -1,0 +1,34 @@
+/* Calculator Cpp Code By Nasir Ali */
+#include <iostream>
+using namespace std;
+int main(){
+ start: // Program Initial Adress
+ float X,Y; // X & Y Defined as integer
+ char O; // O defined as Character 
+ cout << "X : ";cin >>X; //Input for X
+ cout << "Y : ";cin >>Y; //Input for Y
+ /* Input for Operator Selection */
+ cout << " Operators : (+ - * / %)" << endl;
+ cout << "Enter Operator : ";cin >>O;
+/* Control Structure for Operations */
+if(O=='+'){
+  cout << "ANSWER : " << X+Y << endl;
+        }
+else if(O=='-'){
+    cout << "ANSWER : " << X-Y << endl;
+        }
+else if(O=='*'){
+    cout << "ANSWER : " << X*Y << endl;
+        }
+else if(O=='/'){
+    cout << "ANSWER : " << X/Y << endl;
+        }
+else if(O=='%'){
+    cout << "ANSWER : " << int(X)%int(Y) << endl;
+        }
+else{
+    cout << "Invalid ! Operator Entered\n";
+  }
+  cout << endl;
+  goto start; // Go Back to Initial Position
+}
