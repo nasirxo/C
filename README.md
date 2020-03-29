@@ -4,6 +4,7 @@
 <p>├── Calculator_cpp</p>
 <p>├── Factorial_table.cpp</p>
 <p>├── GPA.c</p>
+<p>├── MathSolver.cpp</p>
 <p>├── NumTable.c</p>
 <p>├── README.md</p>
 <p>├── SquareRoot_Table.cpp</p>
