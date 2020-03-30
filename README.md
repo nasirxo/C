@@ -8,6 +8,7 @@
 <p>├── NumTable.c</p>
 <p>├── README.md</p>
 <p>├── SquareRoot_Table.cpp</p>
+<p>├── StringGen.cpp</p>
 <p>├── Summation_table.cpp</p>
 <p>├── calculator.cpp</p>
 <p>├── factorial.c</p>
